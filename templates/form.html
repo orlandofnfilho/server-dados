@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <h2>Formulario com servidor HTTP em Python</h2>
+
+    <form method="POST" , enctype="multipart/form-data" action='/success'>
+        <label for="full_name">Nome Completo:</label><br>
+        <input type="text" name="full_name" value="Diogenes Carvalho Matias"><br>
+        <label for="country">Pais:</label><br>
+        <input type="text" name="country" value="Pernambuco"><br><br>
+        <input type="submit" value="Salvar">
+        <input type="submit" formaction="/update" value="Atualizar">
+        <input type="submit" formaction="/remove" value="Remover">
+    </form>
+    <br>
+<a href="/show_records">Dados Cadastrados</a>
+</body>
+
+</html>
+
